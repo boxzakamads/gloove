@@ -1,0 +1,13 @@
+<div id="navbar-area" {% if mixture.url == "index" %} class="large-nav"{% endif %} {% if mixture.url != "index" %} class="border"{% endif %}>
+  <div class="container">
+    <a class="logo" href="/"><img src="/img/Logo.svg"></a>
+    <div class="navbar">
+      <ul class="nav">
+        <!-- <li {% if mixture.url == "cities" %}class="active"{% endif %}><a href="/cities">Byer</a></li> -->
+        <li {% if mixture.url == "faq" %}class="active"{% endif %}><a class="btn btn-link" href="/faq">FAQ</a></li>
+        <!-- <li {% if mixture.url == "become-gloover" %}class="active"{% endif %}><a class="btn btn-third" href="/become-gloover">Bliv gloover</a></li> -->
+        <li {% if mixture.url == "become-gloover" %}class="active"{% endif %}><a class="btn btn-third" href="mailto:well.hello@gloove.dk?subject=Bliv en gloover hos Gloove.dk&body=Send dine informationer, samt hvorfor du har lyst til at blive en gloover. Så vender vi tilbage til dig!">Bliv gloover</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

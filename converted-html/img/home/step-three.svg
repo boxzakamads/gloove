@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="267px" height="214px" viewBox="0 0 267 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>step-three</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="step-three" sketch:type="MSLayerGroup" transform="translate(-40.000000, -38.000000)">
+            <path d="M45,80.7435086 L144.195844,42.0136719 L243.391688,80.7435086 L243.391688,208.653939 L144.195844,247 L45,208.653939 L45,80.7435086 Z" id="Rectangle-14" fill="#F4F5F9" sketch:type="MSShapeGroup"></path>
+            <path d="M146,123.263672 L243,85 L246.257812,208.960938 L146,247 L146,123.263672 Z" id="Rectangle-18" fill="#E6E6E6" sketch:type="MSShapeGroup"></path>
+            <g id="close" transform="translate(40.000000, 38.000000)" fill="#5B60AF" sketch:type="MSShapeGroup">
+                <g id="Capa_1">
+                    <path d="M105.018985,0 L0.475793358,41.3300923 L0.134446494,172.723838 L104.971328,213.816808 L209.822934,172.7219 L209.822934,41.1964207 L105.018985,0 Z M140.437694,20.7613284 L43.6187823,58.3505535 L10.8219742,45.4134686 L104.921347,8.04160517 L140.437694,20.7613284 Z M101.234336,204.547362 L61.9693727,188.695074 L42.2638561,181.291993 L7.62702952,167.627657 L7.62702952,52.2043727 L41.91631,65.73 L41.91631,94.5914391 L44.9721587,93.7382657 L47.0372878,96.5759779 L49.912583,95.9049077 L52.697214,98.8464576 L55.1273247,98.0091697 L59.0502952,101.899594 L59.0502952,72.487583 L62.1022694,73.6925646 L101.234723,89.1264022 L101.234723,204.547362 L101.234336,204.547362 L101.234336,204.547362 Z M66.69631,67.4533948 L161.11572,29.1869004 L200.056384,45.0508118 L104.979852,82.5575092 L66.69631,67.4533948 Z M202.335387,167.627657 L108.721882,204.547362 L108.721882,89.1267897 L202.326476,52.202048 L202.326476,167.624945 L202.335387,167.627657 L202.335387,167.627657 L202.335387,167.627657 Z" id="Shape"></path>
+                </g>
+            </g>
+            <path d="M81,96 L106,96 L106,152 L99.8941465,141.423376 C99.8941465,141.423376 95.1792988,146.955909 93.5,146.1731 C91.8207012,145.390292 87.3941465,135.596477 87.3941465,135.596477 L81,140.346201 L81,96 Z" id="Rectangle-11" fill="#ACD1D9" sketch:type="MSShapeGroup"></path>
+            <path d="M79.5038191,70.2282117 L191.946232,70.2282117 L212.588231,89.6459229 L99.1296007,89.6459226 L79.5038191,70.2282117 Z" id="Rectangle-10" fill="#383A86" sketch:type="MSShapeGroup" transform="translate(146.046025, 79.937067) rotate(-22.000000) translate(-146.046025, -79.937067) "></path>
+            <path d="M201.5,188.5 L279.5,154.5" id="Line" stroke="#494DA1" stroke-width="5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M214.5,132.5 L303.5,96.5" id="Line" stroke="#494DA1" stroke-width="5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M259.5,138.5 L296.5,123.5" id="Line" stroke="#494DA1" stroke-width="5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

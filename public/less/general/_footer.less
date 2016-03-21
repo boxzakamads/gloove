@@ -1,0 +1,72 @@
+footer#footer{
+	padding: 50px 0 0;
+	background: @blue;
+	z-index: 999;
+	overflow: hidden;
+	#top-footer{
+		padding-bottom: 50px;
+	}
+	#logo{	
+		img{
+			height: 60px;
+			width: auto;
+			display: block;
+			max-width: 280px;
+			// float: left;
+		}		
+	}
+	#links{
+		padding-top: 15px;		
+		ul{
+			display: inline-block;
+			text-align: right;
+			padding: 0;
+			li{
+				display: inline;
+				padding: 12px 0 0 20px;
+				text-align: right;
+			}
+		}
+	}
+	#contact{
+		margin-top: 20px;
+		@media(min-width:768px){
+			margin-top: 50px;
+		}
+		h4{
+			color: @white;
+			margin: 0;
+			padding: 0 0 5px 0;
+		}
+	}
+
+	#company{
+		background: @blue-600;
+		padding: 20px 0 0;
+		p{
+			color: @white;
+			font-size: 1em;
+			display: inline-block;
+			padding:0;
+			&:after{
+				content: "|";
+				display: absolute; 
+				padding: 20px;
+			}
+			&:last-of-type:after{
+				content: "";
+				display: absolute; 
+				padding: 0px;
+			}
+		}
+	}
+	.spacer{
+		@media(max-width:767px){
+			text-align: center;
+			margin-bottom: 20px;
+
+			#logo img{margin: auto; text-align: center;}
+			#links ul li{display: block; text-align: center; padding: 12px 0;}
+		}
+	}
+}

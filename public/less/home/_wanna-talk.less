@@ -1,0 +1,52 @@
+section#wanna-talk{
+	padding: 50px;
+	position: relative;
+	.links-area{
+		display: inline-block;
+		@media(max-width: 991px){
+			display: block;
+			padding: 0 0 20px;
+		}
+	}
+	a{
+		font-size: 1.6em;
+		padding: 0px 40px;
+		position: relative;
+		
+		&.mail:before{
+			content: "";
+			background: url('/img/home/mail.svg') no-repeat;
+			height: 24px;
+			background-size: contain; 
+			width: 40px;
+			position: absolute;
+			left: -8px;
+			top: 3px;
+		}
+		&.phone:before{
+			content: "";
+			background: url('/img/home/phone.svg') no-repeat;
+			height: 28px;
+			background-size: contain; 
+			width: 40px;
+			position: absolute;
+			left: -0px;
+			top: 1px;
+		}
+	}
+	.gloover-mate{
+		display: none;
+		@media(min-width: 992px){
+			display: block;
+			position: absolute;
+			height: 100%;
+			right: 15px;
+			bottom: 0px;		
+		}
+		img{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+	}
+}

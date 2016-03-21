@@ -1,0 +1,121 @@
+header#header{
+	min-height: 900px;
+	height: 100vh;
+	background: @blue;
+	overflow: hidden;
+	position: relative;
+	&:before{
+		content: "";
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		bottom: -3px;
+		background-image: url(/img/home/hero-illustration.svg);
+		background-size: 1500px;
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		// opacity: 0.8;s
+		@media (max-width: 768px){
+			background-size: 800px;
+		}
+	}
+
+	.container, .row{
+		height: 100%;
+		position: relative;
+	}
+
+	.cloud-1{
+		content: "";
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: 260px;
+		left: -50px;
+		height: 60px;
+		background-image: url(/img/home/cloud.svg);
+		background-repeat: no-repeat;
+		animation: clouds 38s ease-in-out 1s infinite alternate;
+
+		@media (max-width: 991px){
+			display: none;
+		}
+	}
+	.cloud-2{
+		content: "";
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 30px;
+		right: 80px;
+		top: 170px;
+		background-image: url(/img/home/cloud.svg);
+		background-repeat: no-repeat;
+		background-position: right;
+		z-index: 100;
+		animation: clouds 32s ease-in-out 3s infinite alternate;
+
+		@media (max-width: 991px){
+			display: none;
+		}
+	}
+	@keyframes clouds {
+		20% { }
+		100%  { transform: translateX(10em); }
+	}
+
+	.sun{
+		content: "";
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 110px;
+		right: 20px;
+		top: 130px;
+		z-index: 80;
+		background-image: url(/img/home/sun.svg);
+		background-size: contain; 
+		background-repeat: no-repeat;
+		background-position: right;
+		@media (max-width: 768px){
+			display: none;
+		}
+	}
+	
+
+	.intro-area{
+		text-align: center;
+		top: 120px;
+		@media(max-width: 767px){
+			top: 80px;
+		}
+		.intro-content{
+			color: #fff;
+			h1 span{
+				color: @turkish;
+				text-decoration: underline;
+			}
+			p{
+				text-align: center;
+				color: @white;
+			}
+		}
+		.intro-cta{
+			margin-top: 50px;
+		}
+	}
+
+// animation
+
+.cloud {
+	animation: rock-crane 3s ease-in-out 0s infinite;
+	transform-origin: 50% 0;
+}
+
+@keyframes crane {
+	50% { transform: rotate(-6deg) }
+}
+
+}
